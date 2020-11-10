@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>charilife 1:1 상담 : 관리자</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .btn_group{
+      border: 1px solid black;
+      background-color: #f45c2e;
+      padding: 4px;
+    }
+    .new{
+      border: 1px solid black;
+      background-color: #f4e34f;
+      padding: 4px;
+    }
+    .no_user{
+      border: 1px solid black;
+      background-color: #787878;
+      padding: 4px;
+    }
+
+  </style>
+</head>
+<body>
+<ul class="pages">
+  <li class="chat page">
+    <div class="chatArea">
+      <ul id="chat_body" class="messages"></ul>
+    </div>
+  <li id="userlist"></li>
+  <button id="btn_fin">상담 종료하기</button>
+  <input class="inputMessage" placeholder="메세지를 입력하세요"/>
+  </li>
+</ul>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/main2.js"></script>
+</body>
+</html>
+
+
