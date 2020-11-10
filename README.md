@@ -1,1 +1,2 @@
 # charilife
+# socket - chatting 
